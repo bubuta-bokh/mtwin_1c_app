@@ -13,7 +13,7 @@ part 'analytics_state.dart';
 
 class AnalyticsBloc extends Bloc<AnalyticsEvent, AnalyticsState> {
   final AnalyticsRepository analyticsRepository;
-  AnalyticsRow14? row14Data;
+  List<AnalyticsRow14>? row14Data;
   //late List<TicketOpenings> ticketOpeningsList;
   //late List<AnalyticsDataToMakeFiles> analyticsDataToMakeFiles;
 
@@ -32,6 +32,7 @@ class AnalyticsBloc extends Bloc<AnalyticsEvent, AnalyticsState> {
           case 14:
             row14Data = await analyticsRepository.getRow14(
                 dateStart: event.dateStart, dateEnd: event.dateEnd);
+            emit(AnalyticsRequestToFetchDataSuccededState());
             break;
         }
       } catch (e) {

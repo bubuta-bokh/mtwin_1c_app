@@ -26,3 +26,14 @@ class RunInto1CDoReportsEvent extends RunInto1cEvent {
   @override
   List<Object> get props => [ticketDataToMakeFiles];
 }
+
+class RunInto1CDoRow14ReportsEvent extends RunInto1cEvent {
+  final List<AnalyticsRow14> row14;
+  final String queryName;
+
+  const RunInto1CDoRow14ReportsEvent(
+      {required this.row14, required this.queryName});
+
+  @override
+  List<Object> get props => [row14, queryName];
+}

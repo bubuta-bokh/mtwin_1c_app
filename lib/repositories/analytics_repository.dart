@@ -91,7 +91,7 @@ class AnalyticsRepository {
   }
 
   //Future<List<AnalyticsRow14>?> getRow14(
-  Future<AnalyticsRow14> getRow14(
+  Future<List<AnalyticsRow14>> getRow14(
       {required String dateStart, required String dateEnd}) async {
     try {
       var response = await dio.get('GetRow14For1C',
@@ -101,9 +101,15 @@ class AnalyticsRepository {
         throw Exception(
             "Сервер бэк-энда вернул статус-код ошибки: $statusCode.");
       } else {
-        var s = (response.data as Map<String, dynamic>);
-        late AnalyticsRow14 row14 = AnalyticsRow14.fromJson(s);
-        return row14;
+        // var s = (response.data as Map<String, dynamic>);
+        // late AnalyticsRow14 row14 = AnalyticsRow14.fromJson(s);
+        // return row14;
+        var s = response.data as List;
+        List<AnalyticsRow14> r14 = [];
+        for (var element in s) {
+          r14.add(AnalyticsRow14.fromJson(element));
+        }
+        return r14;
       }
     } on DioException catch (e) {
       return throw Exception(e);

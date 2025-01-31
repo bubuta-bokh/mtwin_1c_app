@@ -1,7 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:mtwin_1c_app/entities/analytics/analytics_row1218.dart';
+import 'package:mtwin_1c_app/entities/analytics/analytics_row_14.dart';
+import 'package:mtwin_1c_app/entities/my_logger.dart';
 import 'package:mtwin_1c_app/entities/run1c/query_types_1c.dart';
+import 'package:mtwin_1c_app/entities/snackbar_global.dart';
 import 'package:mtwin_1c_app/entities/ticket/ticket_data_to_make_files.dart';
 import 'package:mtwin_1c_app/repositories/run1C_repository.dart';
 
@@ -24,6 +27,18 @@ class RunInto1cBloc extends Bloc<RunInto1cEvent, RunInto1cState> {
       queriesToRun = event.queriesToRun;
       emit(RunInto1CGotQueriesState());
       //print(event.run1CParam);
+    });
+
+    on<RunInto1CDoRow14ReportsEvent>((event, emit) async {
+      emit(RunInto1CMakeFilesRequestState());
+      try {
+        await run1cRepository.do14(event.row14, event.queryName);
+        emit(RunInto1CMakeFilesRanWithSuccessState());
+      } catch (e) {
+        myLogger.e(e.toString());
+        SnackbarGlobal.show(e.toString(), 20, 'error');
+        emit(RunInto1CMakeFilesRanAndFailedState());
+      }
     });
 
     on<RunInto1CDoReportsEvent>((event, emit) async {

@@ -54,3 +54,372 @@
 ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
 │ type 'List<dynamic>' is not a subtype of type 'Map<String, dynamic>' in type cast
 └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 10:49:35.271
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [unknown]: null
+│ Error: HttpException: Connection closed before full header was received, uri = http://localhost:65276/api/PortalAnalytics/GetRow14For1C?startDate=01.12.2024&endDate=31.12.2024
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 10:53:08.321
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [unknown]: null
+│ Error: HttpException: Connection closed before full header was received, uri = http://localhost:65276/api/PortalAnalytics/GetRow14For1C?startDate=01.12.2024&endDate=31.12.2024
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:20:32.109
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [bad response]: This exception was thrown because the response has a status code of 500 and RequestOptions.validateStatus was configured to throw for this status code.
+│ The status code of 500 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+│ Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+│ In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+│ 
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:21:59.455
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [unknown]: null
+│ Error: HttpException: Connection closed before full header was received, uri = http://localhost:65276/api/PortalAnalytics/GetRow14For1C?startDate=01.12.2024&endDate=31.12.2024
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:24:38.210
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [unknown]: null
+│ Error: HttpException: Connection closed before full header was received, uri = http://localhost:65276/api/PortalAnalytics/GetRow14For1C?startDate=01.12.2024&endDate=31.12.2024
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:27:09.313
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [bad response]: This exception was thrown because the response has a status code of 500 and RequestOptions.validateStatus was configured to throw for this status code.
+│ The status code of 500 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+│ Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+│ In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+│ 
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:28:29.360
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [bad response]: This exception was thrown because the response has a status code of 500 and RequestOptions.validateStatus was configured to throw for this status code.
+│ The status code of 500 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+│ Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+│ In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+│ 
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:29:37.357
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Exception: DioException [unknown]: null
+│ Error: HttpException: Connection closed before full header was received, uri = http://localhost:65276/api/PortalAnalytics/GetRow14For1C?startDate=01.12.2024&endDate=31.12.2024
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:38:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 11:35:15.171
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ type 'List<dynamic>' is not a subtype of type 'Map<String, dynamic>' in type cast
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   new AnalyticsBloc.<anonymous closure> (package:mtwin_1c_app/bloc/analytics_bloc/analytics_bloc.dart:39:18)
+│ #1   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 12:08:30.351
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ type 'List<dynamic>' is not a subtype of type 'Map<String, dynamic>' in type cast
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:17:19.627
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:17:19.637
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:18:14.208
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:18:14.222
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:21:54.279
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:21:54.282
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:22:41.927
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:22:41.941
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:22:46.697
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:22:46.698
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:23:47.074
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:23:47.076
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:23:55.614
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:23:55.617
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:24:18.473
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:24:18.487
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:24:20.439
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:24:20.440
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:19.100
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:19.102
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:23.372
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRequestState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:23.373
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRequestState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:23.389
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRanWithSuccessState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:25:23.390
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRanWithSuccessState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:02.462
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:02.476
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsInitial() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:04.226
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:04.227
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataStartedState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:50.894
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:50.896
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CInitializedState([Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C', Instance of 'QueryType1C'])
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:54.368
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRequestState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:54.368
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRequestState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:52:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:54.397
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRanWithSuccessState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ #0   executeTaskTrailingButton (package:mtwin_1c_app/components/tasks_1c/execute_task_trailing_button.dart:13:12)
+│ #1   ExecuteTask.build (package:mtwin_1c_app/components/tasks_1c/execute_task.dart:75:27)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 2025-01-31 16:39:54.398
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ astate=AnalyticsRequestToFetchDataSuccededState() and rstate=RunInto1CMakeFilesRanWithSuccessState()
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
