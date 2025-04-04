@@ -1,29 +1,11 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:dio/dio.dart';
-// import 'package:giis_dmdk_app/entities/dmdk/already_sold_ticket_objects.dart';
-// import 'package:giis_dmdk_app/entities/dmdk/answer_check_get_batch_ticket.dart';
-// import 'package:giis_dmdk_app/entities/dmdk/in_circulation_ticket_objects.dart';
-import 'package:mtwin_1c_app/entities/analytics/analytics_row1218.dart';
-import 'package:mtwin_1c_app/entities/analytics/analytics_row_14.dart';
-import 'package:mtwin_1c_app/entities/app_config.dart';
-import 'package:mtwin_1c_app/entities/results_and_errors.dart';
-// import 'package:giis_dmdk_app/entities/ticket/ontrade_uncirculated_whole_ticket.dart';
-// import 'package:giis_dmdk_app/entities/ticket/registered_unuined_ticket.dart';
-// import 'package:giis_dmdk_app/entities/ticket/repayed_uined_ticket.dart';
-// import 'package:giis_dmdk_app/entities/ticket/sold_ticket_object.dart';
-// import 'package:giis_dmdk_app/entities/ticket/unregistered_ticket.dart';
+import 'package:mtwin_1c_app/entities/my_logger.dart';
 import 'package:mtwin_1c_app/repositories/auth_repository.dart';
-//import 'package:logger/logger.dart';
 
 class TicketRepository {
   Dio dio = Dio();
   Dio dioto = Dio();
   final AuthRepository authRepository;
-  // final logger = Logger(
-  //   printer: PrettyPrinter(),
-  // );
 
   TicketRepository(this.authRepository);
 
@@ -127,9 +109,9 @@ class TicketRepository {
     } on DioException catch (e) {
       final String msg = e.response?.data['exceptionMessage'];
       if (e.response?.statusCode == 404) {
-        print(msg);
+        myLogger.e('Wrong status code 404 returned!');
       } else {
-        print(msg);
+        myLogger.e('Error $msg returned!');
       }
       return false;
     }

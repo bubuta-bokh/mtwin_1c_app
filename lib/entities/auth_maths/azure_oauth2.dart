@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:mtwin_1c_app/entities/my_logger.dart';
 import 'package:pkce/pkce.dart';
 import 'package:http/http.dart' as http;
@@ -14,47 +13,35 @@ class AzureOauth2 {
   String _codeGraph = '';
   String _codeChallenge = '';
   String? _codeVerifier;
-  final String? _htmlResponsePayload = null;
+
+  ///final String? _htmlResponsePayload = null;
 
   Future<Map<String, dynamic>?> getGraphToken() async {
     try {
-      print('[From azure_oath2] L18');
       final params = StringBuffer();
-      print('[From azure_oath2] L20');
       params.write("response_type=code");
       params.write("&scope=${AuthCredentials.scopes['graph']}");
       params.write("&client_id=${AuthCredentials.clientId}");
       params.write("&redirect_uri=${AuthCredentials.redirectUri}");
       params.write("&state=${AuthCredentials.authState}");
-      print('[From azure_oath2] L26');
       final pkcePair = PkcePair.generate();
-      print('[From azure_oath2] L28');
       _codeVerifier = pkcePair.codeVerifier;
-      print('[From azure_oath2] L30');
       _codeChallenge = pkcePair.codeChallenge;
-      print('[From azure_oath2] L32');
       params.write("&code_challenge=$_codeChallenge");
       params.write("&code_challenge_method=S256");
-      print('[From azure_oath2] L35');
       final Uri authUrl = Uri.parse(
         '${AuthCredentials.authorizationUrl}?${params.toString()}',
       );
-      //print('[From azure_oath2] L38');
       await _codeListenerServer?.close();
-      //print('[From azure_oath2] L40');
       _codeListenerServer = await HttpServer.bind(
         'localhost',
         AuthCredentials.localPort,
       );
-      //print('[From azure_oath2] L43');
       await _authorize(authUrl);
-      //print('[From azure_oath2] L45');
       Map<String, String>? responseQueryParameters =
           await _listenAuthorizationCode();
-      //print('[From azure_oath2] L48');
       if (responseQueryParameters != null &&
           responseQueryParameters.containsKey("code")) {
-        //print('[From azure_oath2] L51');
         _codeGraph = responseQueryParameters["code"]!;
         Map<String, String> tokenReqPayload = {
           'client_id': AuthCredentials.clientId,
@@ -67,24 +54,17 @@ class AzureOauth2 {
           "code_verifier",
           () => pkcePair.codeVerifier,
         );
-        print('[From azure_oath2] L61');
 
         final response = await http.post(
           Uri.parse(AuthCredentials.tokenUrl),
           body: tokenReqPayload,
         );
-        // Dio dio = Dio();
-        // final response =
-        //     await dio.post(AuthCredentials.tokenUrl, data: tokenReqPayload);
-        //myLogger.i(response);
         var simka = json.decode(response.body);
-        print('[From azure_oath2] L65');
         Map<String, dynamic> toReturn = {
           'refreshToken': simka["refresh_token"] as String,
           'graphAccessToken': simka["access_token"] as String,
           'expiresIn': simka["expires_in"] as int,
         };
-        print('[From azure_oath2] L71');
         return toReturn;
       } else {
         return null;
@@ -130,7 +110,6 @@ class AzureOauth2 {
     params.write(AuthCredentials.graphUserEndpoint);
     final String pipa = params.toString();
     var url = Uri.parse(pipa);
-    //print("url=${params.toString()}");
     final response = await http.get(
       url,
       headers: {
@@ -142,11 +121,10 @@ class AzureOauth2 {
     final String res = response.body;
     final int statusCode = response.statusCode;
     if (statusCode < 200 || statusCode > 400) {
-      print('bad!');
+      myLogger.e('Wrong status code $statusCode returned!');
       return null;
     } else {
       final Map<String, dynamic>? parsed = json.decode(res);
-      //UserCredentials userCreds = UserCredentials();
       return parsed!;
     }
   }
@@ -196,28 +174,4 @@ class AzureOauth2 {
       throw Exception('Could not launch $logoutUrl');
     }
   }
-
-  // Future<Map<String, String>> _fetchAccessToken() async {
-  //   Map<String, String> tokenReqPayload = {
-  //     'client_id': AuthCredentials.clientId,
-  //     'redirect_uri': AuthCredentials.redirectUri,
-  //     'grant_type': 'authorization_code',
-  //     'code': _codeGraph
-  //   };
-
-  //   if (_codeVerifier != null) {
-  //     tokenReqPayload.putIfAbsent("code_verifier", () => _codeVerifier!);
-  //   }
-
-  //   final response = await http.post(Uri.parse(AuthCredentials.tokenUrl),
-  //       body: tokenReqPayload);
-  //   var simka = json.decode(response.body);
-  //   _tokenStuff["code"] = code;
-  //   if ((simka["scope"] as String)
-  //       .contains("https://graph.microsoft.com/User.Read")) {
-  //     _tokenStuff["graph"] = simka["access_token"] as String;
-  //   }
-
-  //   return _tokenStuff;
-  // }
 }

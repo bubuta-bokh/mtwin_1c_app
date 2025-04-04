@@ -17,9 +17,6 @@ class AuthRepository {
   //late TokenStuff tokenStuff;
   String? _graphAccessToken;
   String? _refreshToken;
-  // final Logger logger = Logger(
-  //   printer: PrettyPrinter(),
-  // );
   UserCredentials? userCreds;
   bool get hasToken {
     return (_refreshToken != null &&
@@ -49,22 +46,12 @@ class AuthRepository {
   }
 
   Future<Map<String, dynamic>?> getGraphTokens() async {
-    //logger.i('Inside getGraphTokens');
-    print('[From authrepo] L53');
-
     var graphInfo = await azure.getGraphToken();
-
-    print('[From authrepo] L55');
-    //logger.i('graphInfo=$graphInfo');
     if (graphInfo != null && graphInfo.isNotEmpty) {
-      print('[From authrepo] L58');
       _graphAccessToken = graphInfo["graphAccessToken"];
-      print('[From authrepo] L60');
       _refreshToken = graphInfo["refreshToken"];
-      print('[From authrepo] L62');
       //_fillTokenStruct('graph', graphInfo);
     }
-    print('[From authrepo] L65');
     return graphInfo;
   }
 
@@ -142,7 +129,7 @@ class AuthRepository {
       file.writeAsStringSync(json.encode(jsonObj), encoding: pipa);
       return true;
     } on Exception catch (ex) {
-      print(ex);
+      myLogger.e('Exception $ex');
       return false;
     }
   }

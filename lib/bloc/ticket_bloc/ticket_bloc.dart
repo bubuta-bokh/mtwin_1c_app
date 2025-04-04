@@ -1,17 +1,10 @@
 import 'package:bloc/bloc.dart';
-import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
-import 'package:mtwin_1c_app/entities/analytics/analytics_row1218.dart';
 import 'package:mtwin_1c_app/entities/app_config.dart';
-import 'package:mtwin_1c_app/entities/results_and_errors.dart';
 import 'package:mtwin_1c_app/entities/run1c/query_types_1c.dart';
 import 'package:mtwin_1c_app/entities/snackbar_global.dart';
 import 'package:mtwin_1c_app/entities/ticket/ticket_data_to_make_files.dart';
-import 'package:mtwin_1c_app/repositories/run1c_repository.dart';
-//import 'package:mtwin_1c_app/repositories/analytics_repository.dart';
-
 import 'package:mtwin_1c_app/repositories/ticket_repository.dart';
-//import 'package:logger/logger.dart';
 
 part 'ticket_event.dart';
 part 'ticket_state.dart';
@@ -20,13 +13,8 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
   final TicketRepository ticketRepository;
   AppConfig? config;
   late List<TicketDataToMakeFiles> ticketDataToMakeFiles;
-  //late List<TicketOpenings> ticketOpeningsList;
   late List<int> doneOps = [];
   late int stoneId;
-
-  // final logger = Logger(
-  //   printer: PrettyPrinter(),
-  // );
 
   TicketBloc({required this.ticketRepository}) : super(TicketInitial()) {
     on<TicketInitialEvent>((event, emit) async {

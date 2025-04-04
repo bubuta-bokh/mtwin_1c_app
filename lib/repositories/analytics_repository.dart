@@ -11,16 +11,12 @@ import 'package:mtwin_1c_app/entities/analytics/analytics_row_4.dart';
 import 'package:mtwin_1c_app/entities/analytics/analytics_row_7.dart';
 import 'package:mtwin_1c_app/entities/analytics/analytics_row_8.dart';
 import 'package:mtwin_1c_app/entities/analytics/analytics_row_9.dart';
-import 'package:mtwin_1c_app/entities/app_config.dart';
 import 'package:mtwin_1c_app/repositories/auth_repository.dart';
 
 class AnalyticsRepository {
   Dio dio = Dio();
   Dio dioto = Dio();
   final AuthRepository authRepository;
-  // final logger = Logger(
-  //   printer: PrettyPrinter(),
-  // );
 
   AnalyticsRepository(this.authRepository);
 
@@ -46,9 +42,6 @@ class AnalyticsRepository {
         },
       ),
     );
-    //} on Exception catch (e) {
-    //  return throw Exception(e);
-    // }
   }
 
   Future<bool> prepareDio(String envi) async {
